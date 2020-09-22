@@ -1,16 +1,16 @@
 {
-  "name": "vscode-taro-snippets",
-  "version": "0.0.4",
-  "description": "Code snippets for Taro",
-  "displayName": "vscode-taro-snippets",
-  "publisher": "crper",
+  "name": "vscode-taro3-snippets",
+  "version": "0.0.1",
+  "description": "Code snippets for Taro3",
+  "displayName": "vscode-taro3-snippets",
+  "publisher": "Twtcer",
   "icon": "images/taro.png",
   "galleryBanner": {
     "theme": "light"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sw-yx/swyx-react-typescript-snippets.git"
+    "type": "github",
+    "url": "https://github.com/Twtcer/vscode-taro-snippets"
   },
   "engines": {
     "vscode": "^1.10.x"
@@ -29,15 +29,15 @@
     "react native"
   ],
   "author": {
-    "name": "crper(QunHe Lin)",
-    "email": "crper@outlook.com",
-    "url": "https://github.com/crper"
+    "name": "Twtcer",
+    "email": "landwind1180@gmail.com",
+    "url": "https://github.com/Twtcer"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crper/vscode-taro-snippets/issues"
+    "url": "https://github.com/Twtcer/vscode-taro-snippets/issues"
   },
-  "homepage": "https://github.com/crper/vscode-taro-snippets#readme",
+  "homepage": "https://github.com/Twtcer/vscode-taro-snippets#readme",
   "contributes": {
     "snippets": [
       {

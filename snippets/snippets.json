@@ -2,10 +2,11 @@
   "taro-init": {
     "prefix": "tarocc",
     "body": [
-      "import Taro , { Component } from '@tarojs/taro';",
+      "import Taro from '@tarojs/taro';",
+      "import React from 'react';", 
       "import { View, Text , Button} from '@tarojs/components';",
       "",
-      "export default class ${1:Index} extends Component {",
+      "export default class ${1:Index} extends React.Component {",
       "",
       "   config = {",
       "       navigationBarTitleText: '$2'",
@@ -13,14 +14,9 @@
       "",
       "  state={}",
       "",
-      "  componentWillMount () {}",
+ 
       "  componentDidMount () {} ",
-      "  componentWillReceiveProps (nextProps,nextContext) {} ",
-      "  componentWillUnmount () {} ",
-      "  componentDidShow () {} ",
-      "  componentDidHide () {} ",
-      "  componentDidCatchError () {} ",
-      "  componentDidNotFound () {} ",
+  
       "  render() {",
       "    return (",
       "      <View>",
@@ -28,18 +24,19 @@
       "      </View>",
       "    );",
       "  }",
-      "}",
-      "export default $1;"
+      "}" 
     ],
-    "description": "taro初始化模板(Component)"
+    "description": "taro3 Component"
   },
+
   "taro-init-purecomponent": {
     "prefix": "taropc",
     "body": [
-      "import Taro , { PureComponent } from '@tarojs/taro';",
+      "import Taro from '@tarojs/taro';",
+      "import React from 'react';", 
       "import { View, Text , Button} from '@tarojs/components';",
       "",
-      "class ${1:Index} extends PureComponent {",
+      "class ${1:Index} extends React.PureComponent {",
       "",
       "   config = {",
       "       navigationBarTitleText: '$2'",
@@ -47,14 +44,9 @@
       "",
       "  state={}",
       "",
-      "  componentWillMount () {}",
+ 
       "  componentDidMount () {} ",
-      "  componentWillReceiveProps (nextProps,nextContext) {} ",
-      "  componentWillUnmount () {} ",
-      "  componentDidShow () {} ",
-      "  componentDidHide () {} ",
-      "  componentDidCatchError () {} ",
-      "  componentDidNotFound () {} ",
+ 
       "  render() {",
       "    return (",
       "      <View>",
@@ -62,11 +54,11 @@
       "      </View>",
       "    );",
       "  }",
-      "}",
-      "export default $1;"
+      "}"
     ],
-    "description": "taro初始化模板(PureComponent)"
+    "description": "taro PureComponent"
   },
+
   "taro-app-config": {
     "prefix": "taroaf",
     "body": [
@@ -85,6 +77,22 @@
     ],
     "description": "taro App config"
   },
+
+  "taro-page-config": {
+    "prefix": "taropf",
+    "body": [
+      "config = {", 
+      "  window: {",
+          "backgroundTextStyle: 'light',",
+          "navigationBarBackgroundColor: '#fff',",
+          "navigationBarTitleText: 'WeChat',",
+          "navigationBarTextStyle: 'black'",
+         "}",
+      "}"
+    ],
+    "description": "taro Page config"
+  },
+
   "import connect from tarojs/redux": {
     "prefix": "taroir",
     "body": [
